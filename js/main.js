@@ -1,3 +1,14 @@
+function domId(id) {
+    return document.getElementById(id);
+}
+
+function quyDoi(id) {
+    var quyDoi = new Intl.NumberFormat('vn-VN');
+    return quyDoi.format(id);
+
+}
+
+
 const kw_50 = 500;
 const kw_65 = 650;
 const kw_85 = 850;
